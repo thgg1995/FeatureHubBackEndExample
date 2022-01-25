@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BackEnd.Example.FeatureHub.Domain/1.0.0": {
+        "runtime": {
+          "BackEnd.Example.FeatureHub.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BackEnd.Example.FeatureHub.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

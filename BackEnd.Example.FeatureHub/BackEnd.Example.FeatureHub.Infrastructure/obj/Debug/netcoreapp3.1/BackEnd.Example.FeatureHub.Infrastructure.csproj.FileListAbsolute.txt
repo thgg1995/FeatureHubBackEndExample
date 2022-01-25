@@ -1,0 +1,14 @@
+C:\Users\Thiago\source\repos\FeatureHub\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Infrastructure\bin\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Infrastructure.deps.json
+C:\Users\Thiago\source\repos\FeatureHub\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Infrastructure\bin\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Infrastructure.dll
+C:\Users\Thiago\source\repos\FeatureHub\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Infrastructure\bin\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Infrastructure.pdb
+C:\Users\Thiago\source\repos\FeatureHub\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Infrastructure\bin\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Application.dll
+C:\Users\Thiago\source\repos\FeatureHub\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Infrastructure\bin\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Domain.dll
+C:\Users\Thiago\source\repos\FeatureHub\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Infrastructure\bin\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Application.pdb
+C:\Users\Thiago\source\repos\FeatureHub\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Infrastructure\bin\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Domain.pdb
+C:\Users\Thiago\source\repos\FeatureHub\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Infrastructure\obj\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Thiago\source\repos\FeatureHub\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Infrastructure\obj\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Thiago\source\repos\FeatureHub\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Infrastructure\obj\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Infrastructure.AssemblyInfo.cs
+C:\Users\Thiago\source\repos\FeatureHub\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Infrastructure\obj\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Thiago\source\repos\FeatureHub\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Infrastructure\obj\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Infrastructure.csproj.CopyComplete
+C:\Users\Thiago\source\repos\FeatureHub\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Infrastructure\obj\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Infrastructure.dll
+C:\Users\Thiago\source\repos\FeatureHub\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Infrastructure\obj\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Infrastructure.pdb
