@@ -9,5 +9,6 @@ namespace BackEnd.Example.FeatureHub.Application.UseCases
     {
         Task ExecuteFeaturePercentAsync();
         Task ExecuteFeatureBooleanAsync();
+        Task ExecuteFeatureUserAsync();
     }
 }

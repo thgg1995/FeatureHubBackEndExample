@@ -51,6 +51,21 @@ namespace BackEnd.Example.FeatureHub.Application.UseCases
             await Task.CompletedTask;
         }
 
+        public async Task ExecuteFeatureUserAsync()
+        {
+            Console.WriteLine("Exemplo tombamento fundo");
+            var cart = FillEntities();
+
+            foreach (var fundo in cart.Fundos)
+            {
+                var resultFlag = await _controlFeatureHubGateway.CallApiUser();
+
+                if (resultFlag != null)
+                {
+                    Console.WriteLine($"{fundo.Nome} Deve ser tombado? {resultFlag}");
+                }
+            }
+        }
 
         private Carteira FillEntities()
         {

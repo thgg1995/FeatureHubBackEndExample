@@ -4,51 +4,36 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
+using System.Threading.Tasks;
 
 namespace BackEnd.Example.FeatureHub.Worker
 {
     class Program
     {
-        static void Main(string[] args)
+        private static WorkerHostBuilder _workerHostBuilder;
+        public static async Task Main(string[] args)
         {
-            CreateHostBuilder(args).Build().RunAsync();
+            try
+            {
+                _workerHostBuilder = new WorkerHostBuilder(args);
+                await _workerHostBuilder?.Start();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Worker has not been launched. Error: {ex.Message}");
+
+                await StopHostService();
+                Process.GetCurrentProcess().Kill();
+            }
         }
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureAppConfiguration((hostingContext, configure) =>
-                {
-                    configure.AddJsonFile("appsettings.json",
-                        optional: false,
-                        reloadOnChange: true);
-                })
-            .ConfigureWebHost((webHostBuilder) =>
-            {
-                webHostBuilder.UseKestrel((hostingContext, configure) =>
-                {
-                    if (hostingContext.HostingEnvironment.EnvironmentName != "development")
-                    {
-                        configure.Listen(
-                            Dns.GetHostEntry(Dns.GetHostName()).AddressList.FirstOrDefault(ip =>
-                            ip.AddressFamily == AddressFamily.InterNetwork)
-                            , 8081
-                            );
-                    }
-                });
-                webHostBuilder.UseShutdownTimeout(TimeSpan.FromSeconds(05));
-                webHostBuilder.UseStartup<Startup>();
-            })
-            .ConfigureServices((hostContext, services) =>
-            {
-                services.AddHostedService<Worker>();
-            })
-            .ConfigureLogging((hostingContext, configLogging) =>
-            {
-                configLogging.AddConsole();
-                configLogging.AddDebug();
-            }).UseConsoleLifetime();
+        public static async Task StopHostService()
+        {
+            await _workerHostBuilder?.StopAsync();
+        }
     }
 }

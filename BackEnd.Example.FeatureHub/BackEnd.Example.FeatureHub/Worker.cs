@@ -14,14 +14,12 @@ namespace BackEnd.Example.FeatureHub.Worker
         private readonly ILogger<Worker> _logger;
         private readonly IHost _host;
         private IUseCaseAsync _UseCaseAsync;
-        IHostApplicationLifetime _applicationLifetime;
 
-        public Worker(ILogger<Worker> logger, IHost host, IUseCaseAsync useCaseAsync, IHostApplicationLifetime applicationLifetime)
+        public Worker(ILogger<Worker> logger, IHost host, IUseCaseAsync useCaseAsync)
         {
             _logger = logger;
             _host = host;
             _UseCaseAsync = useCaseAsync;
-            _applicationLifetime = applicationLifetime;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -40,11 +38,16 @@ namespace BackEnd.Example.FeatureHub.Worker
                 Console.WriteLine("Aperte qualquer tecla para executar o proximo exemplo");
                 Console.ReadKey();
 
-                _applicationLifetime.StopApplication();
+                Console.WriteLine("Chamando exemplo useCase User Rule");
+                await _UseCaseAsync.ExecuteFeatureUserAsync();
+
+                Console.ReadKey();
+
+                await _host?.StopAsync();
+                _host?.WaitForShutdown();
             }
             catch (Exception ex)
             {
-                _applicationLifetime.StopApplication();
                 throw ex;
             }
         }

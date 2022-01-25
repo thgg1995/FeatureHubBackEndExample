@@ -60,13 +60,13 @@ namespace BackEnd.Example.FeatureHub.Infrastructure.Gateways
 
         public async Task<bool?> CallApiUser()
         {
-            var booleanContext = await _featureHub.NewContext().UserKey("userTeste").Build();
+            var userContext = await _featureHub.NewContext().UserKey("userFlag").Build();
 
             if (fh.Readyness == Readyness.Ready)
             {
-                Func<bool?> val = () => booleanContext["BOOLEAN"].BooleanValue;
+                Func<bool?> val = () => userContext["USER"].BooleanValue;
 
-                booleanContext.Close();
+                userContext.Close();
 
                 return await Task.FromResult(val.Invoke().Value);
             }
