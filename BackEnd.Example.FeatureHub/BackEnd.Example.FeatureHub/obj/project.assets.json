@@ -6565,11 +6565,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thiago\\source\\repos\\FeatureHub\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub.Worker.csproj",
+      "projectUniqueName": "C:\\Users\\Thiago\\source\\repos\\FeatureHub\\FeatureHubBackEndExample\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub.Worker.csproj",
       "projectName": "BackEnd.Example.FeatureHub.Worker",
-      "projectPath": "C:\\Users\\Thiago\\source\\repos\\FeatureHub\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub.Worker.csproj",
+      "projectPath": "C:\\Users\\Thiago\\source\\repos\\FeatureHub\\FeatureHubBackEndExample\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub.Worker.csproj",
       "packagesPath": "C:\\Users\\Thiago\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Thiago\\source\\repos\\FeatureHub\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub\\obj\\",
+      "outputPath": "C:\\Users\\Thiago\\source\\repos\\FeatureHub\\FeatureHubBackEndExample\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6590,14 +6590,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Thiago\\source\\repos\\FeatureHub\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub.Application\\BackEnd.Example.FeatureHub.Application.csproj": {
-              "projectPath": "C:\\Users\\Thiago\\source\\repos\\FeatureHub\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub.Application\\BackEnd.Example.FeatureHub.Application.csproj"
+            "C:\\Users\\Thiago\\source\\repos\\FeatureHub\\FeatureHubBackEndExample\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub.Application\\BackEnd.Example.FeatureHub.Application.csproj": {
+              "projectPath": "C:\\Users\\Thiago\\source\\repos\\FeatureHub\\FeatureHubBackEndExample\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub.Application\\BackEnd.Example.FeatureHub.Application.csproj"
             },
-            "C:\\Users\\Thiago\\source\\repos\\FeatureHub\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub.Domain\\BackEnd.Example.FeatureHub.Domain.csproj": {
-              "projectPath": "C:\\Users\\Thiago\\source\\repos\\FeatureHub\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub.Domain\\BackEnd.Example.FeatureHub.Domain.csproj"
+            "C:\\Users\\Thiago\\source\\repos\\FeatureHub\\FeatureHubBackEndExample\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub.Domain\\BackEnd.Example.FeatureHub.Domain.csproj": {
+              "projectPath": "C:\\Users\\Thiago\\source\\repos\\FeatureHub\\FeatureHubBackEndExample\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub.Domain\\BackEnd.Example.FeatureHub.Domain.csproj"
             },
-            "C:\\Users\\Thiago\\source\\repos\\FeatureHub\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub.Infrastructure\\BackEnd.Example.FeatureHub.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Thiago\\source\\repos\\FeatureHub\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub.Infrastructure\\BackEnd.Example.FeatureHub.Infrastructure.csproj"
+            "C:\\Users\\Thiago\\source\\repos\\FeatureHub\\FeatureHubBackEndExample\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub.Infrastructure\\BackEnd.Example.FeatureHub.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Thiago\\source\\repos\\FeatureHub\\FeatureHubBackEndExample\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub.Infrastructure\\BackEnd.Example.FeatureHub.Infrastructure.csproj"
             }
           }
         }

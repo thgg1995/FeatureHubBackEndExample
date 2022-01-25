@@ -7,3 +7,12 @@ C:\Users\Thiago\source\repos\FeatureHub\BackEnd.Example.FeatureHub\BackEnd.Examp
 C:\Users\Thiago\source\repos\FeatureHub\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Domain\obj\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Thiago\source\repos\FeatureHub\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Domain\obj\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Domain.dll
 C:\Users\Thiago\source\repos\FeatureHub\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Domain\obj\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Domain.pdb
+C:\Users\Thiago\source\repos\FeatureHub\FeatureHubBackEndExample\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Domain\bin\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Domain.deps.json
+C:\Users\Thiago\source\repos\FeatureHub\FeatureHubBackEndExample\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Domain\bin\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Domain.dll
+C:\Users\Thiago\source\repos\FeatureHub\FeatureHubBackEndExample\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Domain\bin\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Domain.pdb
+C:\Users\Thiago\source\repos\FeatureHub\FeatureHubBackEndExample\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Domain\obj\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Domain.csprojAssemblyReference.cache
+C:\Users\Thiago\source\repos\FeatureHub\FeatureHubBackEndExample\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Domain\obj\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Domain.AssemblyInfoInputs.cache
+C:\Users\Thiago\source\repos\FeatureHub\FeatureHubBackEndExample\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Domain\obj\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Domain.AssemblyInfo.cs
+C:\Users\Thiago\source\repos\FeatureHub\FeatureHubBackEndExample\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Domain\obj\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Thiago\source\repos\FeatureHub\FeatureHubBackEndExample\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Domain\obj\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Domain.dll
+C:\Users\Thiago\source\repos\FeatureHub\FeatureHubBackEndExample\BackEnd.Example.FeatureHub\BackEnd.Example.FeatureHub.Domain\obj\Debug\netcoreapp3.1\BackEnd.Example.FeatureHub.Domain.pdb

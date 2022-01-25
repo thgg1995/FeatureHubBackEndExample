@@ -8,5 +8,9 @@ namespace BackEnd.Example.FeatureHub.Domain.Gateways
     public interface IControlFeatureHubGateway
     {
         Task<bool?> CallApiPercent();
+
+        Task<bool?> CallApiBoolean();
+
+        Task<bool?> CallApiUser();
     }
 }

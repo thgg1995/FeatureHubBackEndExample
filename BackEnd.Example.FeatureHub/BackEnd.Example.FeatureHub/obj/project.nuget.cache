@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hKnnWysqMABIK04bPfcCBZXafmuDuYbSM+HT7EALI/GGh6TDjk2U6KwcD9fyBhF50wEKakdYzzNxNJMZTW74Zw==",
+  "dgSpecHash": "SYiQAsC8hN0c2zPSCYZyBd/vsnU7sYfLBhEM+Bv6HdtXXKD4GgBCHCIZNt2+JCLDNqRpn7T1Bxe49r5k9dObyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Thiago\\source\\repos\\FeatureHub\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub.Worker.csproj",
+  "projectFilePath": "C:\\Users\\Thiago\\source\\repos\\FeatureHub\\FeatureHubBackEndExample\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub\\BackEnd.Example.FeatureHub.Worker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Thiago\\.nuget\\packages\\common.logging\\3.4.1\\common.logging.3.4.1.nupkg.sha512",
     "C:\\Users\\Thiago\\.nuget\\packages\\common.logging.core\\3.4.1\\common.logging.core.3.4.1.nupkg.sha512",

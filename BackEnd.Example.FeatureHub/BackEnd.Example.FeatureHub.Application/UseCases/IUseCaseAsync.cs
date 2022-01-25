@@ -7,7 +7,7 @@ namespace BackEnd.Example.FeatureHub.Application.UseCases
 {
     public interface IUseCaseAsync
     {
-        Task ExecutePercentAsync();
-        Task ExecuteOnOffAsync();
+        Task ExecuteFeaturePercentAsync();
+        Task ExecuteFeatureBooleanAsync();
     }
 }

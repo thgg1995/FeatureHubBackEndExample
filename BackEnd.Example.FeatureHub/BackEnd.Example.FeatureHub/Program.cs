@@ -49,6 +49,6 @@ namespace BackEnd.Example.FeatureHub.Worker
             {
                 configLogging.AddConsole();
                 configLogging.AddDebug();
-            });
+            }).UseConsoleLifetime();
     }
 }

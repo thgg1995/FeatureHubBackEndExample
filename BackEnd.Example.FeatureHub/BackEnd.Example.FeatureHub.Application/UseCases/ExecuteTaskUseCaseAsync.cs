@@ -15,9 +15,8 @@ namespace BackEnd.Example.FeatureHub.Application.UseCases
         {
             _controlFeatureHubGateway = controlFeatureHubGateway;
         }
-        public async Task ExecutePercentAsync()
+        public async Task ExecuteFeaturePercentAsync()
         {
-            Console.WriteLine("Chamando exemplo useCase percent rollout");
             Console.WriteLine("Exemplo tombamento fundo");
             var cart = FillEntities();
 
@@ -31,13 +30,25 @@ namespace BackEnd.Example.FeatureHub.Application.UseCases
                 }
             }
 
-
             await Task.CompletedTask;
         }
 
-        public Task ExecuteOnOffAsync()
+        public async Task ExecuteFeatureBooleanAsync()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Exemplo tombamento fundo");
+            var cart = FillEntities();
+
+            foreach (var fundo in cart.Fundos)
+            {
+                var resultFlag = await _controlFeatureHubGateway.CallApiBoolean();
+
+                if (resultFlag != null)
+                {
+                    Console.WriteLine($"{fundo.Nome} Deve ser tombado? {resultFlag}");
+                }
+            }
+
+            await Task.CompletedTask;
         }
 
 
